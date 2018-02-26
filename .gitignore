@@ -20,3 +20,5 @@ tmp/*
 .ipynb_checkpoints/Untitled-checkpoint.ipynb
 
 paleotopo_grids.zip
+
+.ipynb_checkpoints/paleotopography-checkpoint.py
