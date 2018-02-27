@@ -102,7 +102,7 @@ def get_distance_to_mountain_edge(point_array,reconstruction_basedir,time):
 # This cell uses COB Terranes to make a masking polygon
 # (which is called 'seive_polygons')
 def get_merged_cob_terrane_polygons(COBterrane_file,rotation_model,reconstruction_time,
-                                    sampling,area_threshold=None):
+                                    sampling,area_threshold=None,return_raster=False):
 
     polygon_features = pygplates.FeatureCollection(COBterrane_file)
 
@@ -116,6 +116,20 @@ def get_merged_cob_terrane_polygons(COBterrane_file,rotation_model,reconstructio
 
     else:
         return cf
+
+# This cell uses COB Terranes to make a masking polygon
+# (which is called 'seive_polygons')
+def get_merged_cob_terrane_raster(COBterrane_file,rotation_model,reconstruction_time,
+                                  sampling):
+
+    polygon_features = pygplates.FeatureCollection(COBterrane_file)
+
+    cobter = pp.force_polygon_geometries(polygon_features)
+
+    mask = pp.merge_polygons(cobter,rotation_model,time=reconstruction_time,
+                             sampling=sampling,return_raster=True)
+    
+    return mask
 
 
 # use merged seive_polygons to get a regular lat-long multipoint that will contain points
