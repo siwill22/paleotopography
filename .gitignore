@@ -22,3 +22,7 @@ tmp/*
 paleotopo_grids.zip
 
 .ipynb_checkpoints/paleotopography-checkpoint.py
+
+.ipynb_checkpoints/make_present_day_environments-checkpoint.ipynb
+
+.ipynb_checkpoints/paleotopography_validation-checkpoint.ipynb
