@@ -1,7 +1,11 @@
 
 paleotopo_grids/*
 
+paleotopo_grids_netcdf4/*
+
 tween_feature_collections/*
+
+tween_feature_collections_gpml/*
 
 .ipynb_checkpoints/paleotopography-anisotropic-diffusion-checkpoint.ipynb
 

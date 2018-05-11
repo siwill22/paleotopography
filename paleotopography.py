@@ -54,7 +54,7 @@ def add_reconstructed_points_to_xyz(points_file,rotation_model,reconstruction_ti
             zval_array.append(np.ones((feature_coordinates.shape[0],1))*zval*2)
         else:
             zval_array.append(np.ones((feature_coordinates.shape[0],1))*zval)
-            
+      
     xy_array = np.vstack(point_array)
     xyz_array = np.hstack((xy_array,np.vstack(zval_array)))
     
