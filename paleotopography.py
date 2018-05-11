@@ -63,14 +63,18 @@ def add_reconstructed_points_to_xyz(points_file,rotation_model,reconstruction_ti
 
 # function to facilitate the smoothing of topography
 # at the edge of mountain range polygons
-def get_distance_to_mountain_edge(point_array,reconstruction_basedir,time):
+def get_distance_to_mountain_edge(point_array,reconstruction_basedir,rotation_model,time,area_threshold):
     
     distance_threshold_radians=None
     env_list = ['m']
 
-    pg_dir = '%s/PresentDay_Paleogeog_Matthews2016_%dMa/' % (reconstruction_basedir,time)
+    if time==0:
+        pg_dir = './present_day_paleogeography.gmt'
+        pg_features = pg.load_paleogeography(pg_dir,env_list,single_file=True,env_field='Layer')
+    else:
+        pg_dir = '%s/PresentDay_Paleogeog_Matthews2016_%dMa/' % (reconstruction_basedir,time)
+        pg_features = pg.load_paleogeography(pg_dir,env_list)
 
-    pg_features = pg.load_paleogeography(pg_dir,env_list)
     cf = pp.merge_polygons(pg_features,rotation_model,time=time,sampling=0.25)
     sieve_polygons_t1 = pp.polygon_area_threshold(cf,area_threshold)
 
@@ -134,7 +138,7 @@ def get_merged_cob_terrane_raster(COBterrane_file,rotation_model,reconstruction_
 
 # use merged seive_polygons to get a regular lat-long multipoint that will contain points
 # only within the COB Terranes (ie not within the 'deep ocean')
-def get_land_sea_multipoints(sieve_polygons,sampling):
+def get_land_sea_multipoints(sieve_polygons,sampling,depth_for_unknown_ocean,subdivision_depth=4):
 
     multipoints = create_gpml_regular_long_lat_mesh(sampling)
     grid_dims = (int(180/sampling)+1,int(360/sampling)+1)
