@@ -5,6 +5,10 @@ from sklearn.neighbors import KernelDensity
 import paleogeography as pg
 from pigplates import sphere_tools as pigsph
 
+import sys
+sys.path.append('/Users/Simon/GIT/GPlatesClassStruggle/')
+from raster_reconstruction_classes import *
+
 
 def reconstruct_dataframe(df,static_polygons,rotation_model,reconstruction_time,
                           longitude_field_name='lng',latitude_field_name='lat'):
@@ -44,38 +48,62 @@ def kde_sklearn(x, x_grid, bandwidth=0.2, **kwargs):
     return np.exp(log_pdf)
 
 
-def indicator_z_distribution(df,static_polygons,rotation_model,comparison_time,
-							 longitude_field_name='lng',latitude_field_name='lat'):
+def indicator_z_distribution(df, static_polygons, rotation_model, grdfile, comparison_time,
+							 longitude_field_name='lng', latitude_field_name='lat',
+                             hist_type='kde', normalized=False):
+    
+    ptopo = GplatesRaster(grdfile)
+    
+    rla,rlo = reconstruct_dataframe(df, static_polygons, rotation_model, comparison_time,
+								    longitude_field_name, latitude_field_name) 
 
-    rla,rlo = reconstruct_dataframe(df,static_polygons,rotation_model,comparison_time,
-								   longitude_field_name,latitude_field_name)
+    # sample grid at reconstructed points
+    pbdb_topo = ptopo.sample(np.array(rlo), np.array(rla))
+    
+    if hist_type=='weighted':
+        age_range = np.array(df.early_age - df.late_age)
+        h,be = np.histogram(pbdb_topo,bins=40,range=(-1000,1000),weights=1./age_range)
+        bc = (be[:-1] + be[1:]) / 2
+    elif hist_type=='kde':
+        bc=np.arange(-1000,3000,50)
+        h = kde_sklearn(pbdb_topo,bc,bandwidth=100)
 
-    # interpolate heights at grid
-    grdfile = '../paleotopography/paleotopo_grids/paleotopobathy_smooth_%0.2fMa.nc' % comparison_time
-
-    topo_smoothX,topo_smoothY,topo_smoothZ = pg.load_netcdf(grdfile)
-
-    topo_smoothXg, topo_smoothYg = np.meshgrid(topo_smoothX,topo_smoothY)
-    d,l = pigsph.sampleOnSphere(topo_smoothXg.flatten(),
-                                topo_smoothYg.flatten(), 
-                                topo_smoothZ.flatten(),
-                                np.array(rlo),
-                                np.array(rla),
-                                k=4)
-
-
-    # based on http://earthpy.org/interpolation_between_grids_with_ckdtree.html
-    w = 1./d**2
-    pbdb_topo = np.sum(w * topo_smoothZ.flatten().ravel()[l],axis=1) / np.sum(w,axis=1)
-
-    #age_range = np.array(df.early_age - df.late_age)
-
-    #h,be = np.histogram(pbdb_topo,bins=40,range=(-1000,1000),weights=1./age_range)
-    #bc = (be[:-1] + be[1:]) / 2
-    bc=np.arange(-1000,3000,50)
-    h = kde_sklearn(pbdb_topo,bc,bandwidth=100)
-
-    # normalise so that histogram bin counts always sum to 1
-    #h = h/np.sum(h)
+    if normalized:
+        # normalise so that histogram bin counts always sum to 1
+        h = h/np.sum(h)
         
     return bc,h
+
+
+def plot_points_on_paleotopography(df, static_polygons, rotation_model, grdfile, comparison_time,
+							       longitude_field_name='lng',latitude_field_name='lat',weighting=None):
+    
+    ptopo = GplatesRaster(grdfile)
+    
+    rla,rlo = reconstruct_dataframe(df, static_polygons, rotation_model, comparison_time,
+								    longitude_field_name, latitude_field_name) 
+
+    # sample grid at reconstructed points
+    pbdb_topo = ptopo.sample(np.array(rlo), np.array(rla))
+    
+    # define some weights in range [0-1], based on the length of the valid age range for each sample
+    age_range = np.array(df.early_age - df.late_age)
+    weights = (1/age_range)/(1/age_range).max()
+    #print weights
+    
+    ptopo.plot()
+    if weighting=='alpha':
+        # https://stackoverflow.com/questions/24767355/individual-alpha-values-in-scatter-plot-matplotlib
+        rgba_colors = np.zeros((weights.shape[0],4))  # all zeros --> black
+        # the fourth column needs to be your alphas
+        rgba_colors[:, 3] = weights
+        plt.scatter(rlo,rla,c=rgba_colors,edgecolors='',s=8)
+    elif weighting=='size':
+        plt.scatter(rlo,rla,c='k',edgecolors='',s=weights*20,alpha=0.5)
+    elif weighting is None:
+        plt.plot(rlo,rla,'k.')
+    plt.show()
+    
+    
+    
+    
