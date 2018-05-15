@@ -1,6 +1,8 @@
 
 paleotopo_grids/*
 
+paleotopo_grids_tests/*
+
 paleotopo_grids_netcdf4/*
 
 tween_feature_collections/*
