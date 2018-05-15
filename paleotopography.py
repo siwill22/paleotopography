@@ -33,7 +33,8 @@ def add_reconstructed_points_to_xyz(points_file,rotation_model,reconstruction_ti
     reconstructed_points = []
     pygplates.reconstruct(points_file,rotation_model,reconstructed_points,reconstruction_time)
     
-    mask_file = './OrogenMasks.gpml'
+    #mask_file = './OrogenMasks.gpml'
+    mask_file = None
     if mask_file is not None:
         reconstructed_masks = []
         pygplates.reconstruct(mask_file,rotation_model,reconstructed_masks,reconstruction_time)
@@ -410,6 +411,7 @@ def paleotopography_job(reconstruction_time, paleogeography_timeslice_list,
 
         # smooth the grid using GMT [wavelength is optional
         #pg.smooth_topography_grid('paleotopobathy.nc','paleotopobathy_smooth_%0.2fMa.nc' % reconstruction_time,400.)
+        # TODO skip this step if grid_smoothing_wavelength_kms set to zero
         call_system_command(['gmt', 'grdfilter', paleotopobathy_nc_file.name, '-G%s' % paleotopobathy_smooth_nc_file.name, 
                              '-Fg%0.2f' % grid_smoothing_wavelength_kms, '-fg', '-D4', '-Vl'])
 
