@@ -44,3 +44,7 @@ dev/contour_C.txt
 dev/contour_O.txt
 dev/.ipynb_checkpoints/pt_validation-checkpoint.py
 dev/.ipynb_checkpoints/PTMIP-checkpoint.ipynb
+
+paleotopography.pyc
+
+gmt.history
