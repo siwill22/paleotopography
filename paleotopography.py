@@ -419,10 +419,18 @@ def paleotopography_job(reconstruction_time, paleogeography_timeslice_list,
             # finally, once again force GPlates-readable netCDF (ie netCDF v3) and put the 
             # grid in the output folder with a filename containing the age
             call_system_command(['gmt', 'grdconvert', paleotopobathy_smooth_nc_file.name, 
-                                 '-G%s=cf' % '%s/paleotopobathy_smooth_%0.2fd_%0.2fMa.nc' % (output_dir, sampling, reconstruction_time)])
+                                 '-G%s=cf' % '%s/paleotopobathy_buffer%0.2dd_filter_%0.2fkm_%0.2fMa.nc' % (output_dir,
+                                                                                              mountain_buffer_distance_degrees,
+                                                                                              grid_smoothing_wavelength_kms,
+                                                                                              sampling, 
+                                                                                              reconstruction_time)])
         else:
             call_system_command(['cp', paleotopobathy_smooth_nc_file.name, 
-                                '%s/paleotopobathy_smooth_%0.2fd_%0.2fMa.nc' % (output_dir, sampling, reconstruction_time)])
+                                '%s/paleotopobathy_buffer%0.2dd_filter%0.2fkm_%0.2fd_%0.2fMa.nc' % (output_dir,
+                                                                                              mountain_buffer_distance_degrees,
+                                                                                              grid_smoothing_wavelength_kms,
+                                                                                              sampling, 
+                                                                                              reconstruction_time)])
         
         # load and plot the result
         topo_smoothX,topo_smoothY,topo_smoothZ = pg.load_netcdf(paleotopobathy_smooth_nc_file.name)
@@ -433,7 +441,11 @@ def paleotopography_job(reconstruction_time, paleogeography_timeslice_list,
                    cmap=plt.cm.terrain,vmin=-5000,vmax=5000)
         plt.title('%0.2fMa' % reconstruction_time)
         plt.colorbar()
-        plt.savefig('%s/paleotopobathy_smooth_%0.2fd_%0.2fMa.png' % (output_dir, sampling, reconstruction_time))
+        plt.savefig('%s/paleotopobathy_buffer%0.2dd_filter%0.2fkm_%0.2fd_%0.2fMa.png' % (output_dir,
+                                                                     mountain_buffer_distance_degrees,
+                                                                     grid_smoothing_wavelength_kms,
+                                                                     sampling,
+                                                                     reconstruction_time))
         plt.close()
 
         paleotopobathy_nc_file.delete
