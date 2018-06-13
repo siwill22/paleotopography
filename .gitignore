@@ -68,3 +68,4 @@ dev/.ipynb_checkpoints/unreconstruct_paleotopography-checkpoint.ipynb
 dev/.ipynb_checkpoints/paleotopography_backtracking-checkpoint.ipynb
 dev/.ipynb_checkpoints/paleobathymetry-backtracking-checkpoint.ipynb
 dev/.ipynb_checkpoints/extract_contours-checkpoint.ipynb
+data/gmt.history
