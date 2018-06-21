@@ -69,3 +69,9 @@ dev/.ipynb_checkpoints/paleotopography_backtracking-checkpoint.ipynb
 dev/.ipynb_checkpoints/paleobathymetry-backtracking-checkpoint.ipynb
 dev/.ipynb_checkpoints/extract_contours-checkpoint.ipynb
 data/gmt.history
+data/agegrid_final_mask_0.nc.band1.mipmaps.gplates.cache
+data/agegrid_final_mask_0.nc.band1.level0.gplates.cache
+data/agegrid_final_mask_0.gpml
+dev/.ipynb_checkpoints/grdbacktrack-checkpoint.py
+dev/.ipynb_checkpoints/paleobathymetry_backtrack_global-checkpoint.ipynb
+dev/.ipynb_checkpoints/unreconstruct_paleotopography-checkpoint.ipynb
