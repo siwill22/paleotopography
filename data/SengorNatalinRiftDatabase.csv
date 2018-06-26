@@ -1,0 +1,663 @@
+# This file is part of the supplement to Brune, Williams, Müller: "Potential links between continental rifting, CO2 degassing and climate change through geological time", Nature Geoscience, 2017). 
+# For a discussion of how the table was constructed, see the supplementary material of the publication above.
+# A map of all rifts including their Region, ID, Time, and Length (visualized via circle size) is provided as separate supplementary figure.
+# The table is based on the rift compilation of Şengör, A.M.C., and Natal’in, B.A., 2001: "Rifts of the World", Geological Society of America Special Papers, v. 352, p.389-482, doi: 10.1130/0-8137-2352-3.389
+# 
+Region,ID,Long_Min,Long_Max,Lat_Min,Lat_Max,Orientation,Name,Length,Width,Old_Age,Young_Age,Kinematic_Type_1,Geometric_Type_1,Kinematic_Type_2,Geometric_Type_2
+WEUR,1,23,23.67,40.67,,E,Lake Koronia,50,10,Holocene,,k33,g1,
+WEUR,2,8.5,9.17,39.17,39.83,NW,Campidano,80,15,Quaternary,,k422,g1,k32,g1
+WEUR,3,-4.5,0,46.5,49,"N,NNW",Bretagne,350,100,Pliocene,Quaternary,k423,g4,,
+WEUR,4,20.83,,39.67,,NNW,Ioannina Graben,80,20,Pliocene,,k33,g1,,
+WEUR,5,21.17,22.25,40,41,NNW,Florina Graben,130,20,Pliocene,,k33,g1,
+WEUR,6,20.5,20.83,39.75,41.17,NNW,Lake Ohrid-Grevena,170,45,Pliocene,,k33,g1,,
+WEUR,7,22,24,38,39,NW,Gulf of Evvoia,200,15,Pliocene,,k32,g1,,
+WEUR,8,21.83,23.25,37.33,37.83,ESE,Gulf of Corinth,130,30,Pliocene,,k32,g1,,
+WEUR,9,22.17,22.67,36.83,37.35,NNW,Eurotas Valley,85,10,Pliocene,,k411,g4,k32,g4
+WEUR,10,22.33,23,35.83,36.83,NNE,Gulf of Laconia,120,35,Pliocene,,k411,g4,k32,g4
+WEUR,11,21.83,22.25,36.25,37.15,N,Gulf of Messenia,135,40,Pliocene,,k411,g4,k32,g4
+WEUR,12,-2,-0.5,37.33,38.33,ENE,Murcia Basin,170,75,late Miocene,,k32,g1,,
+WEUR,13,-4.5,,36.71,,E,Malaga Basin,30,12,late Miocene,,k32,g1,,
+WEUR,14,-5,-3.25,35.25,36.33,NW,Western Alboran Basin,110,70,late Miocene,,k32,g1,,
+WEUR,15,-3.5,-2.5,37,38,ENE,guadix,100,30,late Miocene,
+WEUR,16,-3.83,,37.17,,NNW,granada,40,50,late Miocene,
+WEUR,17,10,16.25,38,44,NW,Internal Appenines,800,200,late Miocene,
+WEUR,18,26.17,,35.2,,"NE,E",Sitia,35,7,late Miocene,
+WEUR,19,25,25.33,35.1,35.4,N,Iraklion,24,25,late Miocene,
+WEUR,20,23.83,24.83,35.25,35.5,"E,NW,NE",Khania,200,18,late Miocene,
+WEUR,21,22.5,23.75,35.25,36.5,NNE,Antikithira,120,100,late Miocene,
+WEUR,22,23.5,27,40.75,41.5,ENE,Saros,700,100,late Miocene,
+WEUR,23,25.33,27,40.75,41.25,ENE,Enez,200,20,late Miocene,
+WEUR,24,25.17,25.75,41,,ENE,Konotini,80,20,late Miocene,
+WEUR,25,24.5,25.17,41,,ENE,Kavala-Xanthi,100,20,late Miocene,
+WEUR,26,24.13,,41.15,,N,Drama,60,10,late Miocene,,k33,g3,,
+WEUR,27,23,24.5,40.25,42.25,"N,NNW",Dzerman,250,15,late Miocene,,k33,g3,,
+WEUR,28,23.33,,42.66,,NW,Sofia,30,10,late Miocene,,k33,g3,,
+WEUR,29,24.75,,42.17,,E,Plovdiv,60,30,late Miocene,,k33,g3,,
+WEUR,30,26.5,,42.28,,ESE,Yambol,50,20,late Miocene,,k33,g3,,
+WEUR,31,25.58,,42,,ESE,Maritza,50,50,late Miocene,,k33,g3,,
+WEUR,32,27.47,,42.5,,E,Burgas,50,20,late Miocene,,k33,g3,,
+WEUR,33,23.75,26.32,42.67,,E,Sub-Balkan,200,15,late Miocene,,k33,g3,,
+WEUR,34,16.17,18,46.83,48.75,NE,Hungarian,180,45,late Miocene,,k31,g1,k32,g1
+WEUR,35,21.5,23,48,49.17,NW,Transcarpathian,120,25,late Miocene,,k31,g1,k32,g1
+WEUR,36,21.5,23,47.83,48.17,"NE,NW",Nyirseg,80,110,late Miocene,,k5,g3,,
+WEUR,37,22.17,,47,,NE,Derecske,60,20,late Miocene,,k31,g1,k32,g1
+WEUR,38,19.83,21.25,47,48,NE,Jaszsag,120,25,late Miocene,,k31,g1,k32,g3
+WEUR,39,20.92,21.5,46.5,47,NNW,Bekes,80,60,late Miocene,,k33,g4,,
+WEUR,40,20,21,45.75,46.75,NNW,Mako,100,50,late Miocene,,k33,g1,k33,g4
+WEUR,41,16,17.5,46.25,47,"E,NNE",Zala,140,20,late Miocene,,k31,g2,k32,g2
+WEUR,42,17,18,45.75,46.25,NW,Drava,123,20,late Miocene,,k31,g3k32,g3
+WEUR,43,16,17,45.25,45.75,NW,Sava,80,18,late Miocene,,k31,g3,k32,g3
+WEUR,44,10.25,,41.33,42,N,Montecristo,90,10,late Miocene,,k411,g3,,
+WEUR,45,9.5,10,41.33,43,N,Corsican,200,30,late Miocene,,k411,g3,,
+WEUR,46,10.5,11.33,39,41,N,Cornaglia,300,90,late Miocene,,k411,g3,,
+WEUR,47,10,10.5,39,41,N,Sardinia,350,35,late Miocene,,k411,g3,,
+WEUR,48,7.5,13.5,37,40,"ENE,N,NNE",Sardinia Channel,600,220,middle Miocene,,k32,g4,k422,g4
+WEUR,49,14.83,,46.83,,NNW,Lavant,25,6,middle Miocene,,k32,g4,,
+WEUR,50,15.67,16.17,46.5,47.25,NNE,Steyrian,90,35,middle Miocene,,k31,g1,,
+WEUR,51,16.5,17.25,47.83,48.75,NE,Vienna,100,30,middle Miocene,,k32,g1,,
+WEUR,52,26.5,28,39,40.83,NW,Ergene,125,30,early Miocene,Middle Miocene,k31,g3,,
+WEUR,53,21,24,39,44,NNW,Vardar-Thermai,520,100,early Miocene,Middle Miocene,k33,g3,,
+WEUR,54,22.25,23,39.33,39.75,NW,Larissa,60,15,Miocene,,k32,g4,,
+WEUR,55,21.5,22.5,39,39.75,NW,Karditsa,90,30,Miocene,,k32,g4,,
+WEUR,56,7.75,11,47.5,50.25,WNW,Illies,280,140,Late Oligocene,Early Miocene,k32,g4,,
+WEUR,57,12.33,12.5,50,50.25,NNW,Cheb,21,10,Miocene,,k423,g3,k423,g4
+WEUR,58,0,4,39,41.33,NW,Valencia,350,120,Late Oligocene,Early Miocene,k411,g3,,
+WEUR,59,7,8.5,38.5,41.25,N,Sardinian west,300,90,Oligocene,,k411,g3,,
+WEUR,60,8.5,,39.75,41,N,Othoca,135,20,middle Oligocene,,k411,g3,,
+WEUR,61,13,14,50.25,50.67,ENE,Bohemian,70,23,middle Oligocene,,k423,g3,k423,g4
+WEUR,62,10,13,78,79,NNW,Hornsund,400,60,middle Oligocene,,k31,g3,,
+WEUR,63,11,12,76.5,79,NNW,Forlandsundet,130,20,middle Oligocene,,k31,g3,,
+WEUR,64,3.83,4.17,44.83,45.17,NW,Puy et Emblaves,30,10,Oligocene,,k423,g4,,
+WEUR,65,4,,45.83,46.5,NNW,Bourgogne,55,20,Oligocene,,k423,g4,,
+WEUR,66,4.17,,45.5,,NNW,Forez,50,20,Oligocene,,k423,g4,,
+WEUR,67,3.33,4,45.33,47,N,Limagne,160,30,Oligocene,,k423,g4,,
+WEUR,68,4.83,,43.83,44.5,N,Valreas,70,15,Oligocene,,k423,g4,,
+WEUR,69,5,6,43.33,44.25,NNE,Apt-Forcalquier,110,30,Oligocene,,k411,g3,k411,g4
+WEUR,70,4.17,5,43,43.5,"NE,NNE,ENE",Vaccares,90,16,Oligocene,,k411,g3,k411,g4
+WEUR,71,3.25,4.5,43,44,NE,Nimes,130,15,Oligocene,,k32,g4,,
+WEUR,72,4,8,50,52.5,NW,Lower Rhine,350,80,Eocene,,k421,g1,k31,g1
+WEUR,73,4.5,5.5,44.5,47.33,N,Bresse,195,60,late Eocene,,k32,g2,k423,g4
+WEUR,74,4.83,5.92,44.75,45.35,NNE,Drome,150,130,late Eocene,,k32,g2,k423,g4
+WEUR,75,12.5,13,50.17,50.33,ENE,Sokolov,30,10,late Eocene,,k423,g3,k423,g4
+WEUR,76,3.5,4.5,43.5,44.5,NE,Languedoc,200,70,middle Eocene,,k32,g2,k423,g4
+WEUR,77,9,,48,,NNE,Kraichgau,175,22,Oligocene,,k421,g1,,
+WEUR,78,7.25,8.75,47.5,50.1,NNE,Upper Rhine,350,35,Lutetian,,k421,g1,,
+WEUR,79,14.33,14.58,48.83,49.17,NW,Budejovice,25,10,Santonian,,k421,g1,k32,g1
+WEUR,80,14.5,15,48.83,49.25,"NW,N",Trebon,70,21,Santonian,,k421,g1,k32,g1
+WEUR,81,-20,-14,57.5,59.5,NE,Hatton,450,100,Late Cretaceous,late Eocene,k1,g3,,
+WEUR,82,17,20,71,72,NNE,Tromso,110,30,Early Cretaceous,middle Cretaceous,k1,g3,k31,g1
+WEUR,83,8.5,12.5,68,69,NE,Rost,170,90,Early Cretaceous,,k1,g3,,
+WEUR,84,11.75,12.75,67.5,68,NE,Skomvaer,80,20,Early Cretaceous,,k1,g3,,
+WEUR,85,-20,-9,52.5,59.5,NE,Rockall,900,180,Early Cretaceous,,k1,g2,,
+WEUR,86,-3.75,-1.75,41.75,42.5,E,Soria,150,75,Late Jurassic,Early Cretaceous,k1,g2,,
+WEUR,87,-9.5,-9,38.5,40,NW,Lusitanian,160,40,Oxfordian,,k1,g2,,
+WEUR,88,7.5,11,52.25,53,WNW,Lower Saxony,300,65,Late Jurassic,,k32,g1,,
+WEUR,89,4,,57.5,60.25,N,Horda-Egersund,320,40,Early Triassic,,k423,g1,,
+WEUR,90,10,11,51,53.5,NNE,Weser,240,40,Early Triassic,,k32,g4,,
+WEUR,91,9,10.5,53,55,"NE,N",Gluckstadt,200,50,Early Triassic,,k32,g4,k33,g4
+WEUR,92,7,8,52.5,54.5,"NNE,NNW",Emsland,280,30,Early Triassic,,k32,g4,k33,g4
+WEUR,93,-9,-3,48,50,ENE,Western Approaches,450,130,Early Triassic,,k423,g4,,
+WEUR,94,-8.5,-6,48.75,50.75,ENE,Haig-Fras,215,30,Early Triassic,,k423,g4,,
+WEUR,95,-9,-3,50,51.33,"ENE,E",South Celtic,440,50,Early Triassic,,k423,g4,,
+WEUR,96,-3.5,,53.17,,N,Kish,60,80,Early Triassic,,k32,g4,k423,g4
+WEUR,97,-10,-4,50,52,ENE,North Celtic,600,50,Early Triassic,,k423,g4,,
+WEUR,98,30,35,70.75,71.75,WNW,Varanger,200,80,Triassic,,k423,g1,,
+WEUR,99,-3.2,4.5,52.67,54.5,N,East Irish,210,70,Early Permian,,k422,g4,k423,g4
+WEUR,100,2,,49.5,,NNW,Sub-Paris,100,25,Early Permian,,k423,g1,k32,g1
+WEUR,101,-4,1,57.5,59,E,Moray Firth,310,150,Early Permian,,k32,g1,k423,g1
+WEUR,102,1,4,58,62,NNE,Viking Graben,600,180,Late Permian,,k421,g1,k423,g1
+WEUR,103,-3,2,50.25,51.25,"E,ESE",Wessex-Channel,350,100,Permian,,k423,g4,,
+WEUR,104,-7,-4.5,54.5,56,NE,Lough Neagh-Arran,200,50,Permian,,k423,g4,,
+WEUR,105,-7,-5.5,54.75,55.75,NE,Lough Foyle-Islay,130,30,Permian,,k423,g4,,
+WEUR,106,1,6,54,57.75,NNW,Central graben,450,120,Late Carboniferous,Permian,k421,g1,k423,g1
+WEUR,107,0,5.5,49.5,55,NNW,West Netherlands,600,120,Late Carboniferous,Permian,k421,g1,k423,g1
+WEUR,108,6.5,8,54.5,56.75,"N,NNE",Horn,225,35,Late Carboniferous,Permian,k421,g1,k422,g1
+WEUR,109,8,11,58,61,NNE,Oslo Rift,400,35,Late Carboniferous,Permian,k421,g1,k422,g1
+WEUR,110,-2,,51.5,52.75,N,Worcester basin,180,30,Late Carboniferous,Permian,k421,g1,k422,g1
+WEUR,111,8.5,10,51.5,52,"N,NNW,NE",Hessian depression,120,55,Late Carboniferous,Triassic,k423,g4,,
+WEUR,112,-14,-11.5,50,53,"N,NNE",Porcupine Trough,360,180,Gzhelian,,k421,g1,k33,g1
+WEUR,113,8,10,69,71,NNE,Harstad,220,25,Late Carboniferous,,k31,g1,k32,g3
+WEUR,114,1.5,8.5,64.5,67.5,NE,Voring,240,210,Late Carboniferous,,k32,g3,,
+WEUR,115,-15,-8,66.5,68,NE,Vestfjord,200,50,Late Carboniferous,,k32,g3,,
+WEUR,116,26,37,55,56,NE,Nordkapp,450,80,Early Carboniferous,,k31,g1,k31,g3
+WEUR,117,-5,-2,55,56,"ENE,NNW",Solway,220,40,Early Carboniferous,Permian,k31,g1,k423,g3
+WEUR,118,-6,-1.5,60,62.5,NW,West Shetland,220,60,Late Devonian,Late Jurassic,k31,g1,k21,g3
+WEUR,119,-11,-3,63,67,NE,Helgeland,440,130,Early Devonian,,k31,g1,k32,g4
+WEUR,120,5,,61.83,,E,Solund,35,38,Early Devonian,,k32,g4,,
+WEUR,121,5,,61.83,,E,Kvamshesten,22,5,Early Devonian,,k32,g4,,
+WEUR,122,5,,61.83,,E,Hastainen,12,5,Early Devonian,,k32,g4,,
+WEUR,123,5,,61.83,,E,Hornelen,65,20,Early Devonian,,k32,g4,,
+WEUR,124,6.5,1.5,62,64,NNE,More Basin,400,100,Devonian,Cretaceous,k31,g3,k421,g3
+WEUR,125,-8.5,-7,56.5,59,NNE,West Hebrides,70,20,Devonian,Early Permian,k31,g3,,
+WEUR,126,-10,-6,55,57.5,NE,Malin Sea,320,60,Devonian,,k31,g3,,
+WEUR,127,-8,-6,56.5,58,NE,Minches basins,130,60,Devonian,,k31,g3,,
+WEUR,128,-4.5,-1.5,58,59.5,NE,Western Orkney,180,80,Devonian,Early Permian,k31,g3,,
+WEUR,129,-6.5,-3.5,58.75,60,NE,Orcadian Basin,160,30,Devonian,Permian,k31,g3,,
+WEUR,130,-10.5,0,54,58,ENE,Midland Valley,800,100,Late Silurian,Early Devonian,k31,g3,,
+EEUR,1,80,90,28,34,"N,E",Tibet,1100,950,Pliocene,,k22,g4,,
+EEUR,2,87,,33,,N,Jangngai,40,65,Pliocene,,k22,g4,,
+EEUR,3,83.83,84.17,30,31,N,Thakkola,100,20,Pliocene,,k22,g1,,
+EEUR,4,80,81,31.5,33,NW,Garyarsa,200,20,Pliocene,,k32,g3,,
+EEUR,5,82.5,,30.75,32.33,N,Yagra,170,20,Pliocene,,k22,g1,,
+EEUR,6,83,84,30,32,N,Lunggar,200,30,Pliocene,,k22,g3,,
+EEUR,7,86,87,28,32,N,Bangkor,400,20,Pliocene,,k22,g3,,
+EEUR,8,88,88.5,27.5,30.75,NNE,Xainza,380,15,Pliocene,,k22,g3,,
+EEUR,9,89,90.5,27,30,NNE,Yadong,400,30,Pliocene,,k22,g3,,
+EEUR,10,107,115,34,40,"70,25",Shanxi,960,90,Pliocene,,k3,g3,k32,g3
+EEUR,11,147,151,54,56,305,Okhotsk,180,120,Pliocene,,k22,,,
+EEUR,12,38.67,,39.33,,ENE,Hazar,10,2.5,Pliocene,,k32,g1,,
+EEUR,13,28.25,29.25,38.75,39.17,ESE,Simav,100,10,Pliocene,,k411kg4,k422,g4
+EEUR,14,26,27.5,38.75,39.25,ENE,Edremit,130,30,Pliocene,,k411,g4,k422,g4
+EEUR,15,27.25,28.5,38,,E,Kucuk,100,15,Pliocene,,k411,g4,k422,g4
+EEUR,16,41.25,,39,,E,Karliova,9,6,Pliocene,,k5,g1,,
+EEUR,17,35.3,,32.33,33.17,N,Hula,110,20,Pliocene,,k32,g1,,
+EEUR,18,35.5,,31,31.83,N,Dead Sea,100,25,Pliocene,,k32,g1,,
+EEUR,19,35,,28,29.5,NNE,Elat,150,25,Pliocene,,k32,g1,,
+EEUR,20,27,28.5,36.75,37,E,Gokova,120,25,Pliocene,,k411,g4,k422,g4
+EEUR,21,27,28.25,38.75,39.25,ENE,Bakircay,75,15,Late Miocene,early Pliocene,k411,g4,k422,g4
+EEUR,22,36,38,40.67,,NNW,Havza,150,5,Late Miocene,Pliocene,k32,g3,,
+EEUR,23,27.25,29,39.33,,NNW,Erzincan,50,20,Late Miocene,Pliocene,k32,g1,,
+EEUR,24,35,37,35.5,36.75,NE,Hatay-Adana,250,100,middle Miocene,,k5,g1,,
+EEUR,25,27,29,38,38.33,"E,ESE",Alasehir,200,20,Late Miocene,,k411,g4,k422,g4
+EEUR,26,27.25,29,37.5,37.83,"E,NE",Buyuk,200,20,Late Miocene,,k411,g4,k422,g4
+EEUR,27,35,36.5,35.5,36.75,N,Akcakale,120,20,Late Miocene,,k412,g1,k42,g1
+EEUR,28,38.5,,37,,NNW,Suruc,30,20,Late Miocene,,k412,g1,k42,g1
+EEUR,28a,95,97,12,25,N,Burma,1000,250,Miocene,,k411,g1,k411,g3
+EEUR,29,74.5,77,8.5,12.5,NNW,Kerala,400,100,middle Eocene,,k421,g3,,
+EEUR,30,122,125.33,12,15,310,Ragay Samar,450,100,Miocene,,k32,g1,,
+EEUR,31,122,,11,14.5,N,South Mindoro,250,60,Oligocene,early Miocene,k411,g1,,
+EEUR,32,121,121.5,14.5,17,335,Luzon,500,50,Oligocene,early Miocene,k411,g1,k32,g1
+EEUR,33,135,138,50,56,20,Evoron,250,40,Oligocene,Miocene,k32,g4,,
+EEUR,34,143,144,59,60,335,Kukhtuy,125,50,Miocene,,k32,,,
+EEUR,35,143,152,57,59,90,North Okhotsk,470,120,late Oligocene,Miocene,k42,,,
+EEUR,36,34,44,13.5,28,NNW,Red Sea,1800,70,late Oligocene,Miocene,k1,g2,,
+EEUR,37,43,60,13,22,ENE,Gulf of Aden,1700,250,early Oligocene,Miocene,k1,g2,,
+EEUR,38,111,115,-6.67,-8,E,Madura,470,100,Neogene,,k411,g1,,
+EEUR,39,120.5,121.5,-4.5,-2.5,,Bone,250,80,Neogene,,k411,g1
+EEUR,40,108.5,110.33,3.5,7,NNW,Outer,300,50,Neogene,,k32,g1,,
+EEUR,41a,97,98,50.5,51.5,10,Busingol,90,15,Oligocene,,k31,g1,,
+EEUR,41b,99,100,50,52,0,Hubsugul,120,30,Oligocene,,k31,g1,,
+EEUR,41c,101,103,51,52,90,Tunka,90,30,Oligocene,,k31,g1,,
+EEUR,41d,104,110,52,56,"55,20",Lake Baykal,650,75,Oligocene,,k31,g3,,
+EEUR,41e,100,113,56,57,55,Upper Angara,127,35,Oligocene,,k31,g1,,
+EEUR,41f,100,101,53,55,35,Barguzin,187,30,Oligocene,,k31,g1,,
+EEUR,41g,114,116,57,,90,Muya,110,50,Oligocene,,k31,g1,,
+EEUR,41h,117,120,57,58,55,Chara,110,35,Oligocene,,k31,g1,,
+EEUR,42,120.5,121.5,-5,1,,Makassar,600,200,Oligocene,Neogene,k411,g1,,
+EEUR,43,107,120.67,18,25,ENE,Hainan,1100,500,Oligocene,,k33,g4,,
+EEUR,44,108.75,110.25,2,4.5,NNW,Sokong,200,50,Oligocene,,k411,g1,k32,g1
+EEUR,45,104,108.67,3.17,7.5,ENE,Penyu,600,220,Oligocene,,k32,g1,,
+EEUR,46,102,104.67,6,8,NW,Malaya,400,150,Oligocene,,k32,g1,,
+EEUR,47,100,103.75,7,12,"N,NNW",Gulf of Thailand,700,180,Oligocene,,k32,g1,,
+EEUR,48,109,,9,,NE,Saigon,300,100,Eocene,,k32,g1,,
+EEUR,49,160,164,61,63,55,Gizhiga,250,85,Eocene,,k42,,,
+EEUR,50,151,155,59,60,90,Yama,200,75,Eocene,,k42,,,
+EEUR,51,145,150,59,60,90,Tauy,250,125,Eocene,,k42,,,
+EEUR,52,132,142,73,76,330,Belkov,500,70,late Eocene,,k1,g3,,
+EEUR,53,96,98,4,9,NW,Northern Sumatra,500,200,Eocene,,k32,g1,,
+EEUR,54,98,110,0.5,4,NW,Central Sumatra,400,150,Eocene,,k32,g1,,
+EEUR,55,105.5,109,9,1,E,Vung Tau,200,50,Eocene,,k32,g1,,
+EEUR,56,116,120,4,6,NE,Tarakan,300,100,Eocene,,k32,g1,,
+EEUR,57,115,117.5,0,1,E,Kutei,260,50,Paleocene,,k411,g1,,
+EEUR,58,110,115,13,18,E,Parecel,600,600,Paleogene,,k33,g4,,
+EEUR,59,72,74,20,27,NNW,Cambay,250,50,late Paleocene,early Eocene,k1,g2,,
+EEUR,60,114,124,35,42,"30,80,50",Bohai,1250,450,Paleocene,Eocene,k31,g4,k32,g4
+EEUR,61,118,125,33,37,50,South Yellow Sea,660,240,Paleocene,Eocene,k411,g3,k32,g4
+EEUR,62,118,128,24,34,40,East China Sea,1470,270,Paleocene,Eocene,k411,g3,,
+EEUR,63,107,118,22,27,75,Pearl River Mouth,980,330,Paleocene,Eocene,k411,g3,,
+EEUR,64,70,73,17,21,NNW,Bombay,550,280,Late Cretaceous,Paleocene,k1,g2,,
+EEUR,65a,131,135,72,76,345,Omoloysk,240,40,Late Cretaceous,Cenozoic,k1,,,
+EEUR,65b,133,147,63,72,"305,330",Moma cluster,1000,250,Oligocene,Holocene,k1,,,
+EEUR,66,120,29,73,74,315,Ust-Lena,500,300,Late Cretaceous,Cenozoic,k1,,,
+EEUR,67,-170,150,74,79,"285,315",North Chukchi,1300,300,Late Cretaceous,Paleogene,k22,g3,,
+EEUR,68,172,176,71,75,25,Vikitsky,440,70,Late Cretaceous,Paleogene,k22,g3,,
+EEUR,69,165,175,67,70,295,Hope,900,240,Late Cretaceous,Paleogene,k31,g4,,
+EEUR,70,130,137,47,50,45,Middle Amur,240,120,Late Cretaceous,Miocene,k32,g4,,
+EEUR,71a,-174,-170,65,67,340,Koolen,210,100,middle Cretaceous,,k42,,,
+EEUR,71b,-166,-163,65,,90,Seward,175,25,middle Cretaceous,,k42,,,
+EEUR,72,79.5,82.5,15,17,NE,Krishna-Godavari,350,80,early Cretaceous,,k1,g2,,
+EEUR,73,86.5,,20.5,,ENE,Mahanadi,200,100,Early Cretaceous,,k1,g2,,
+EEUR,74,87,89,20,24,NNE,West Bengal,650,150,Early Cretaceous,,k1,g2,,
+EEUR,75,88,92,22,25,NNE,Faridpur,350,125,Early Cretaceous,,k1,g2,,
+EEUR,76,78.5,80,9,12,NE,Cauvery,400,80,Latest Jurassic,Earliest Cretaceous,k1,g2,,
+EEUR,77,79,,9.5,,NE,Palk Strait,100,40,Latest Jurassic,Earliest Cretaceous,k1,g2,,
+EEUR,78,79.25,80.25,14,16,NE,Palar,150,40,Latest Jurassic,Earliest Cretaceous,k1,g2,,
+EEUR,79,128,130,49,52,"30,80,50",Amursk,250,150,Late Jurassic,Early Cretaceous,k41,,k31,
+EEUR,80,120,127,42,49,35,Songliao,850,340,Late Jurassic,Early Cretaceous,k41,,k31,
+EEUR,81,108,119,42,45,"90,60",Erenhot,1050,280,Jurassic,Early Cretaceous,k3,,,
+EEUR,82,106,121,47,55,"60,25",Transbaykalian,1150,500,Late Jurassic,Early Cretaceous,k32,g4,,
+EEUR,82a,116,120,46,49,35,Hailar,260,240,Jurassic,Early Cretaceous,k3,,,
+EEUR,83,112,117,32,34,90,Xuefeng,500,250,Late Jurassic,Early Cretaceous,k31,g4,,
+EEUR,84,111,118,26,32,40,Jianghan,800,550,Late Jurassic,Early Cretaceous,k32,g4,k31,g4
+EEUR,85,44,48,15,16,NE,Shabwa,100,50,,,k1,g2,,
+EEUR,86,44,48,13,16,NW,Marib,500,50,,,k1,g2,,
+EEUR,87,62,64,49,50,20,Karaastay,150,50,Triassic,Jurassic,k32,g1,,
+EEUR,88,79,83,45,47,305,Alakol,350,100,Late Triassic,Early Jurassic,k31,g4,,
+EEUR,89,40,42,34.5,,E,Anah,200,50,Late Triassic,,k33,g1,,
+EEUR,90,39,40,34.33,36,NW,Euphrates,200,100,Late Triassic,,k33,g1,,
+EEUR,91,87,88,24,26,N,Rajmahal,220,60,Middle Triassic,,k411,g3,k32,g3
+EEUR,92,73,80,22,,ENE,Narmada-Son,700,50,,,k411,g3,k32,g3
+EEUR,93,69,,23.5,,E,Kutch,200,100,Late Triassic,Early Jurassic,k1,g2,,
+EEUR,94,63,68,59,64,35,Sherkala,550,60,Early Triassic,Middle Triassic,k31,g3,,
+EEUR,95,62,64,54,57,20,Chelyabinsk,300,150,Early Triassic,Middle Triassic,k32,g3,,
+EEUR,96,64,67,52,56,25,Kustanay,400,150,Early Triassic,Middle Triassic,k32,g1,,
+EEUR,97,65,66,50,52,25,Kyzyltal-Mkhat,200,45,Early Triassic,Middle Triassic,k32,g1,,
+EEUR,98a,76,78,57,72,"0,20",Koltogor-Urengoy,500,80,Triassic,,k31,g3,,
+EEUR,98b,75,78,64,68,350,Khuduttey,500,40,Triassic,,k31,g3,,
+EEUR,98c,67,73,67,70,330,Yamal,350,50,Triassic,,k31,g3,,
+EEUR,98d,84,,62,69,0,Khudoseysky,750,50,Triassic,,k31,g3,,
+EEUR,98e,78,80,58,60,30,Ust-Tymsky,250,15,Triassic,,k31,g3,,
+EEUR,98f,79,81,57,58,45,Chuziksky,200,20,Triassic,,k31,g3,,
+EEUR,98g,69,78,59,63,40,Agansky,650,50,Triassic,,k31,g3,,
+EEUR,99,32,,32,,ENE,North Sinai,100,90,Permian,Triassic,k411,g3,k1,g2
+EEUR,100,34,36,31,34.5,"N,NNE",Levant,400,25,Permian,Triassic,k31,g3,,
+EEUR,101,84,114,70,77,"60,65",Yenisey-Khatanga,1100,300,Permian,Triassic,k32,,,
+EEUR,102,75,79,56,61,325,Nurol,450,150,Late Carboniferous,Early Permian,k32,,,
+EEUR,103,70,76,63,67,40,Nadym,450,200,Late Permian,,k32,,,
+EEUR,104,73,84,68,73,5,Pur-Gydan,650,400,,,k32,,,
+EEUR,105,82,92,44,47,280,Junggar,650,400,Permian,,k31,g4,,
+EEUR,106,88,95,42,43,275,Turfan,500,100,,,k31,g4,,
+EEUR,107,82,86,20,23,NE,Son-Mahanadi,600,200,Late Carboniferous,Early Permian,k411,g3,k32,g3
+EEUR,108,83,88,23,,E,Damodar-Koel,500,100,Late Carboniferous,Early Permian,k411,g3,k32,g3
+EEUR,109,74,76,15,19,NNW,Koyana,500,50,Late Carboniferous,Early Permian,k411,g3,k32,g3
+EEUR,110,74,77,15,19,NW,Kurduvadi,500,50,Late Carboniferous,Jurassic,k411,g3,k32,g3
+EEUR,111,18,26,72.5,73.25,NE,Bjornoja,280,100,Early Permian,,k31,g3,k33,g1
+EEUR,112,18,26,70,72.5,NE,Hammerfest,400,80,Early Permian,,k31,g3,k33,g1
+EEUR,113,17,20,70,72,20,Tromso,285,100,Middle Devonian,Early Carboniferous,k32,g4,,
+EEUR,114,25,37,72,74,"90,45",Nordkapp,450,80,Devonian,Triassic,k31,g1,k31,g3
+EEUR,115,30,36,71,73,305,Varanger,250,50,Devonian,Triassic,k31,g4,,
+EEUR,116,24,34,76,,75,East Edjin,300,75,Devonian,,k31,g4,,
+EEUR,117,39,,70,,25,East Barent,1500,600,Middle Devonian,Late Carboniferous,k22,g3,,
+EEUR,118,42,,73,78,0,Knipovich,350,50,Middle Devonian,Late Carboniferous,k22,g2,,
+EEUR,119,72,,76,82,0,Svyastaya Anna,650,100,Devonian,,k22,g3,,
+EEUR,120,78,90,78,83,345,Voronin,500,200,,,k22,g3,,
+EEUR,121,53,58,65,69,340,Pechora-Kolvinsky,450,100,Devonian,,k22,g3,,
+EEUR,122,28,38,48,52,305,Dniepr-Donetsk,900,150,Late Devonian,,k1,g3,,
+EEUR,123,44,56,46,50,,Peri-Caspian,900,600,Middle Devonian,Late Devonian,k22,g3,k41,g3
+EEUR,124,173,,70,2,0,Hanna Trough,300,240,Middle Devonian,Early Carboniferous,k411,g4,k31,g4
+EEUR,125,37,44,23.5,28,NNW,Najd,1000,300,Late Vendian,,k32,g1,,
+EEUR,126,36.38,36.83,27.3,27.47,ENE,Shawaq,50,12,Late Vendian,,k32,g1,,
+EEUR,127,38,38.67,26,26.67,NW,Mashhad,90,25,Late Vendian,,k32,g1,,
+EEUR,128,41.67,,25.67,,NW,Jibal al Humayliyah,30,10,Late Vendian,,k32,g1,,
+EEUR,129,40.67,41.42,25.75,26.5,NW,Jabal Dibiy,125,15,Late Vendian,,k32,g1,,
+EEUR,130,40.75,41.25,25.17,25.67,NW,Jabal Sahuq,75,5,Late Vendian,,k32,g1,,
+EEUR,131,41.17,42.25,23.83,24.33,NW,Bi'r Zurb,120,10,Late Vendian,,k32,g1,,
+EEUR,132,42.75,,23.67,,NW,B'ir Sija,25,5,Late Vendian,,k32,g1,,
+EEUR,133,43.58,,22.92,,NW,Budayyiah,25,5,Late Vendian,,k32,g1,,
+EEUR,134,43.5,,24.5,,NW,Al Mishash,70,7.5,Late Vendian,,k32,g1,,
+EEUR,135,47,58,18,24,N,Hormuz,1500,1000,Sturtian,Vendian,k31,g4,k32,g4
+EEUR,136,48,54,18,24,NE,Rub-al-Khali,800,200,Vendian,,k32,g4,k21,g2
+EEUR,137,54,59,18,24,NE,South Oman-Ghaba,700,100,Vendian,,k32,g4,k21,g4
+EEUR,138,53,57,25,30,N,Hormuz (sensu stricto),500,300,Sturtian,,k32,g4,k33,g4
+EEUR,139,56,57,20,23,N,Fahud,300,85,Sturtian,,k32,g4,k33,g4
+EEUR,140,52,54,24,26,N,Jabal az Zannah,240,240,Sturtian,,k32,g4,k33,g4
+EEUR,141,49,53,27,34,"N,NW",Darang,800,150,Sturtian,,k32,g4,k33,g4
+EEUR,142,50,50.83,23.5,30.5,N,North Gulf Salt Basin,800,150,Sturtian,,k32,g4,k33,g4
+EEUR,143,42,46,27,31,N,Kuwait,450,50,Sturtian,,k32,g4,k33,g4
+EEUR,144,76,77.5,16.5,17.5,"E,NW",Bhima,50,55,,,k32,g3,,
+EEUR,145,78,82,16,20,NW,Pranhita-Godavari,700,60,,,k411,g3,k32,g3
+EEUR,146,24,26,49,53,335,Volyn,225,105,,,k1,g3,,
+EEUR,147,30,,60,62,320,Ladozhsky,150,30,,,k1,g1,,
+EEUR,148,18,25,61,65,"5,35",Botnichesky,480,150,,,k1,g3,,
+EEUR,149,37,39,60,62,320,Vozhe-Lachsky,150,50,,,k1,g1,,
+EEUR,150,32,,67,,305,Kandalaksha,150,35,,,k1,g1,,
+EEUR,151,36,46,62,66,310,Onezhsky,650,30,,,k1,g3,,
+EEUR,152,40,42,64,65,320,Keretsko-Pinezhsky,150,50,,,k1,g4,,
+EEUR,153,41,47,63,66,305,Leshukontsky,450,100,,,k1,g3,,
+EEUR,154,44,49,65,67,305,Nizhnemezensky,300,50,,,k1,g3,,
+EEUR,155,44,57,62,68,"300,340",Timano-Varangersky,1000,100,,,k22,g3,,
+EEUR,156,47,50,61,63,"30,70",Yarensky,300,100,,,k1,g3,,
+EEUR,157,41,45,59,60,45,Soligalichsky,300,100,,,k1,g1,,
+EEUR,158,35,40,55,,"90,45",Moscovsky,300,100,,,k1,g3,,
+EEUR,159,31,36,54,59,"45,70",Kresttsovsky,450,100,,,k1,g1,,
+EEUR,160,49,53,58,62,25,Kirovsky,600,50,,,k1,g1,,
+EEUR,161,52,55,54,,280,Abdulinsky,300,50,,,k1,g3,,
+EEUR,162,54,57,55,59,30,Kamsko-Belsky,400,150,,,k1,g3,,
+EEUR,163,38,47,51,55,305,Pachelma,700,100,,,k1,g3,,
+EEUR,164,45,47,50,51,25,Dono-Medvedetsky,250,100,,,k1,g3,,
+EEUR,165,87,94,67,70,20,Igaro-Norilsk,500,150,,,k22,,,
+EEUR,166,98,,65,71,0,Kotuysky,600,200,,,k22,,,
+EEUR,167,115,,69,73,0,Udzhinsk,450,75,,,k22,,,
+EEUR,168,120,125,70,71,305,Kyutyungdinsk,200,50,,,k22,,,
+EEUR,169a,118,124,61,64,40,Kempendyay,275,160,,,k22,,,
+EEUR,169b,115,120,61,64,55,Ygiattinsk,300,60,,,k22,,,
+EEUR,170,116,117,61,64,30,Urinsky,150,50,,,k22,,,
+EEUR,171,134,135,56,57,90,Ulkan,75,50,,,k21,g2,,
+AFR,1,22,26,-21,-18.5,NW,Ngami,350,50,Holocene,,k32,g4,k33,g1
+AFR,2,30,33,-23.5,-21.5,"E,ENE",Limpopo,400,30,Pleistocene,Holocene,k32,g4,k33,g1
+AFR,3,29.5,30.5,-10.5,-8,NNE,Sumbu,360,30,Pleistocene,Holocene,k32,g4,,
+AFR,4,28,,-17,,NE,Kariba,400,100,Pleistocene,Holocene,k32,g4,,
+AFR,5,27,,-9,,NNE,Upemba,300,80,Pleistocene,,k32,g4,,
+AFR,6,28,30,-10,-8,NE,Lake Mweru,200,50,Pleistocene,,k32,g4,,
+AFR,7,34,36,-8.5,-6.5,NE,Usangu,400,50,Pliocene,Pleistocene,k5,g1,,
+AFR,8,33,35,-20,-15,"N,NE",Shire,550,50,Pliocene,,k22,g3,,
+AFR,9,29,33,-15,-10,NNE,Muchinga,650,100,Neogene,,k32,g4,,
+AFR,10a,12,15,35.5,37,WNW,Pantelleria,350,15,Late Miocene,Holocene,k31,g4,,
+AFR,10b,13,,36,,WNW,Linosa,60,15,Late Miocene,Holocene,k31,g4,,
+AFR,10c,11,,36.5,,WNW,Maamoura,50,10,Late Miocene,Holocene,k31,g4,,
+AFR,10d,11,,36.83,,ENE,Kuriates,60,10,Late Miocene,Holocene,k31,g4,,
+AFR,10e,11,,35.5,,NE,Dimasse,30,10,Late Miocene,Holocene,k31,g4,,
+AFR,10f,11.25,,35.42,,ENE,Mahdia,100,15,Late Miocene,Holocene,k31,g4,,
+AFR,10g,11.25,,35.17,,E,Ksour es Saf,40,10,Late Miocene,Holocene,k31,g4,,
+AFR,10h,11.25,,35,,ESE,El Bahira,20,5,Late Miocene,Holocene,k31,g4,,
+AFR,10i,13,14,34,35,ENE,Jaraffa,130,20,Late Miocene,Holocene,k31,g4,,
+AFR,10j,12,14,33,34.17,"ENE,ESE",Tripolitanian,300,40,Late Miocene,Holocene,k31,g4,,
+AFR,10k,11.5,12.0,34.0,37.0,"NW,WNW",Tunisian,110,20,Late Miocene,Holocene,k31,g4,k422,g4
+AFR,11,30.5,31.67,27,27.5,WNW,Asyut,80,20,Late Miocene,,x3?k32,g1,,
+AFR,12,14.33,,36,,NE,Malta,13,15,middle Miocene,Late Miocene,k411,g3,,
+AFR,13,32.33,34.17,28.33,30,NNW,Gulf of Suez,300,60,Latest Oligocene,earliest Miocene,k1,g2,,
+AFR,14,34,44,13.5,28,NNW,Red Sea,1800,75,Latest Oligocene,Miocene,k1,g2,,
+AFR,15Ia,39.5,43,9,15,"N,NW,NE,E",Afar,750,450,middle Miocene,,k1,g2,,
+AFR,15Ib,34.5,36.5,-5,-2,NE,Gregory Tanzania,350,40,middle Miocene,,k1,g2,k1,g3
+AFR,15Ic,37,38,-5,-3.33,N,Pangani,160,40,middle Miocene,,k1,g2,k1,g3
+AFR,15Id,34,38,-5,-2,N,Gregory Kenya,1050,75,Late Oligocene,middle Miocene,k1,g2,k1,g3
+AFR,15Ie,37,41,5,9,NNE,Ethiopian,500,100,Late Oligocene,,k1,g2,k1,g3
+AFR,15Ie1,35.75,,-16,-14,NNE,Chilwa,200,50,Late Miocene,,k32,g1,,
+AFR,15If,35,,-0.5,,ENE,Kavirondo,160,40,Late Miocene,,k1,g2,k1,g3
+AFR,15IIa,31,33,-8.5,-7,NW,Lake Rukwa,350,60,Neogene,,k32,g3,,
+AFR,15IIb,29,32,0,6,NNE,Albert,650,75,Early Miocene,Late Miocene,k1,g2,,
+AFR,15IIc,28,30,-3.5,-1,"NNE,NW",Kiwu,275,50,Early Miocene,Late Miocene,k32,g3,,
+AFR,15IId,29,31,-9,-3,"NNW,N",Lake Tanganyika,550,60,early Miocene,,k32,g3,,
+AFR,15IId1,28,,-4,,NW,Luama,250,80,Miocene,,k32,g3,,
+AFR,15IIe,33.5,35.5,-15.5,-9,"N,NNW",Lake Malawi,700,75,Late Miocene,,k32,g3,,
+AFR,16,43,51,11,12,ENE,Somali Coast,850,80,Early Oligocene,,k1,g2,,
+AFR,17,33.5,34.75,15,17.5,"NW,N",Atbara,200,50,Cenozoic,,k32,g4,,
+AFR,18,9,12.75,17.5,23,NNW,Grein-Kafra,675,60,Albian,,k21,g2,k32,g4
+AFR,19,16,,0,,E,Bongor,320,85,Albian,,k21,g2,k32,g4
+AFR,20,30.5,31.25,16.5,17.75,NNW,Humar,150,50,Albian,,k32,g1,,
+AFR,21,21.5,,10.5,,ENE,Salamat,200,30,Albian,,k32,g4,,
+AFR,22,8.42,9.17,4,5,WNW,Rio del Rey,75,100,Latest Aptian,Albian,k1,g2,,
+AFR,23,9.17,10.17,3.17,4.75,NW,Douala,200,90,Latest Aptian,Albian,k1,g2,,
+AFR,24,5,14,5,11,NE,Benue,1000,230,Aptian,Albian,k21,g2,,
+AFR,25,11.75,13,-17,-13,NNE,Mossamedes,200,100,Aptian,Albian,k1g2,,
+AFR,26,8,15,13,22.5,NW,Termit,1200,220,Latest Aptian,,k21,g2,k32,g4
+AFR,27,14.75,18,8,9,"E,ENE",Doba,360,150,Late Aptian,,k32,g4,,
+AFR,28,17,23,8,10.5,ENE,Doseo,700,80,Aptian,,k32,g4,,
+AFR,29,3,7.5,7,12,NW,Bida,550,100,Early Cretaceous,,k21,g2,k32,g4
+AFR,30,0,2,15,19.5,"NW,NE",Gao,550,100,Early Cretaceous,,k21,g2,k32,g4
+AFR,31,31,35,8,13,NW,Melut,650,100,Early Cretaceous,,k33,g4,,
+AFR,32,31.75,,9.5,,NW,Malakal,50,25,Early Cretaceous,,k33,g4,,
+AFR,33,32,,9,,NW,Kan,75,25,Early Cretaceous,,k33,g4,,
+AFR,34,33.5,,6,,NW,Pibor,160,80,Early Cretaceous,,k33,g4,,
+AFR,35,13,14.5,-11,-7.75,NNW,Cuanza,300,120,Aptian,Neocomian,k1g2,,
+AFR,36,8.5,10.75,-4,-1.25,NNW,Gabon,600,220,Neocomian,,k1,g2,,
+AFR,37,10.5,13.33,-7.75,-4,NNW,Bas Congo,500,100,Neocomian,,k1,g2,,
+AFR,38,13.5,18.5,-26,-35,NNW,Orange,1200,300,Late Jurassic,Early Cretaceous,k1,g2,,
+AFR,39,-7,-2.5,3,5.5,NW,Abidjan,400,150,Late Jurassic,Early Cretaceous,k32,g3,,
+AFR,40,0,5,6.5,8,ESE,Dahomey,500,250,Late Jurassic,Early Cretaceous,k32,g3,,
+AFR,41,12,15,-26,-21,NNW,Walvis,500,250,Late Jurassic,,k1,g2,,
+AFR,42,17,18,33,35,NNW,Sirte Rise,220,100,Late Cretaceous,,k21,g2,,
+AFR,43,15,24,25,32,NNW,Sirte Basin,1200,800,Tithonian,pre-Cenomanian,k21,g2,,
+AFR,44,30,31.5,12.5,14,NW,Bara,160,30,Kimmeridgian,Tithonian,k33,g4,,
+AFR,45,31,32.5,12.5,14,NW,Kosti,150,30,Kimmeridgian,Tithonian,k33,g4,,
+AFR,46,33,35,12,14.5,NW,Blue Nile,400,50,Kimmeridgian,Tithonian,k33,g4,,
+AFR,47,32,33.5,13.5,17,"N,NNE",Khartoum,340,50,Kimmeridgian,Tithonian,k32,g4,,
+AFR,48,-19,-12,7,12,NW,Guinea-Bissau,570,300,Late Jurassic,,k1,g3,,
+AFR,49,9,12,3,7,"NW,E,NNW",Liberian,660,120,Late Jurassic,,k1,g3,,
+AFR,50,27.5,28.5,21,23.5,NNW,Misaha,300,100,Late Jurassic,,k32,g4,,
+AFR,51,25,31.5,28.5,31,"WNW,NW",Marmarican,250,70,Middle Jurassic,Early Cretaceous,k32,g4,k33,g4
+AFR,52,30,,14.75,,E,Kagmar,70,25,Cretaceous,,k32,g1,,
+AFR,53,30.25,,15.5,,WNW,BagBag,80,30,Cretaceous,,k32,g1,,
+AFR,54,31.5,,17,,NE,Hosh,60,20,Cretaceous,,k32,g1,,
+AFR,55,31.5,,17.5,,NE,Salamat,60,20,Cretaceous,,k32,g1,,
+AFR,56,32.5,,17.5,,NE,Gilif,60,40,Cretaceous,,k32,g1,,
+AFR,57,35,40,-7,5,"E,WNW",Anza,850,100,Middle Jurassic,,k1,g2,k33,g1
+AFR,58,15,17,35,37.5,NW,Sicily-Malta,340,35,Middle Jurassic,,k1,g2,k33,g1
+AFR,59,26,,-34,,NNW,Algoa,250,100,Middle Jurassic,,k32,g4,,
+AFR,60,25,,-34,,"NW,NNE",Gamtoos,200,75,Middle Jurassic,,k32,g4,,
+AFR,61,20.5,24.5,-34,-36,NW,Mossel Bay,350,250,Middle Jurassic,,k32,g4,,
+AFR,62,22,,-33.67,,E,Oudtshoorn,200,40,Middle Jurassic,,k32,g4,,
+AFR,63,47.5,51,9.5,12,N,Al Mado-Darror,300,300,Late Triassic,Early Jurassic,k1,g2,,
+AFR,64,43,47,10,11,E,Berbera-Borama,400,100,Late Triassic,Early Jurassic,k1,g2,,
+AFR,65,-18,-12.5,12,21,NNW,Senegal,900,600,Triassic,Early Jurassic,k1,g3,,
+AFR,66a,20,32,31.5,33,E,Cyrenaican,800,100,Late Triassic,,k33,g4,,
+AFR,66b,11,16,32.5,34.5,WNW,Gabes-Tripoli-Misurata,550,150,Late Triassic,,k33,g4,,
+AFR,67,-16,-12,23,29,NNE,Tarfaya,700,350,Triassic,,k1,g3,,
+AFR,68,20,32.5,17,23,E,Lakia,1250,400,Permian,Triassic,k423,g3,k423,g4
+AFR,69,42,46,2.5,8,NNW,Belet Uen,600,100,,,k1,g2,,
+AFR,70,43,50,0,8,"NNE,ENE",Somali Coastal Plain,1100,450,Permian,Triassic,k1,g2,,
+AFR,71,-12.5,-8,29,34,NNE,Mazagan,600,150,Permian,Triassic,k1,g3,,
+AFR,72,32.5,,0,,E,Entebbe,8,1,Permian,,k423,g1,,
+AFR,73,33.5,,0.25,,NW,Bugiri,5,1,Permian,,k423,g1,,
+AFR,74,39,40,-11,-8,NNW,Lindi,300,50,Triassic,,k423,g,k423,g3
+AFR,75,-7.5,-3,15,17,WSW,Nara,440,60,,,k421,g1,k422,g1
+AFR,76,30,35,-14.5,-10,NNE,Luangwa,600,100,Early Permian,,k32,g3,k423,g4
+AFR,77,25,28,-17,-15,NE,Kafue,450,90,Early Permian,,k32,g3,,
+AFR,78,29,,-21.5,,ENE,Tuli,220,70,Early Permian,,k423,g4,,
+AFR,79,31,,-22,,WNW,Nuanesti,80,40,Early Permian,,k423,g4,,
+AFR,80,32,34,-22,-19,NE,Zambezi,350,40,Early Permian,,k423,g4,,
+AFR,81,30.5,,23.5,,ENE,Soutpansberg,160,20,Early Permian,,k423,g4,,
+AFR,82,26,30,-19,-16,NE,Mid-Zambesi,500,100,Early Permian,,k32,g3,k423,g4
+AFR,83,30,36,-20,-16,"ESE,NNW",Lower Zambesi,500,200,Early Permian,,k32,g3,k423,g4
+AFR,84,29,30.75,-15,-13.5,NE,Luano-Lukusashi,300,30,Permian,,k32,g3,k423,g4
+AFR,85,31,32,-27,-22.5,"N,NE",Lebombo,600,60,Late Carboniferous,Early Permian,k423,g4,k421,g1
+AFR,86a,35,,-10,,NE,Ruhuhu,120,80,Stephanian,,k423,g1,,
+AFR,86b,35,36.5,-10.5,-9.5,NE,Ruhuhu reactivated,200,50,late Neogene,,k5,g1,,
+AFR,87,35,36.5,-10.5,-9.5,"NE,NNE",Metangula,1000,200,Late Permian,,k423,g1,,
+AFR,88,39,,-6.5,-4.5,NNE,Tanga,150,90,Late Carboniferous,Middle Permian,k423,g2,,
+AFR,89,40,,-5,-3,"N,NNE",Mombasa,1200,400,Late Carboniferous,,k423,g2,k423,g3
+AFR,90,20,25,14,15,"NW,NNW,NNE",Al Kufrah,700,150,Cambrian,,k32,g4,,
+AFR,91,-0.25,,19.5,,NNE,Tesoffi,100,25,,,k32,g1,,
+AFR,92,2,,24,,N,Erg-N-Ataram,200,80,,,k32,g1,,
+AFR,93,30,35,15,30,NNW,El Kharga,1330,120,,,k31,g4,k32,g4
+AFR,94,28,34,14,30,NNW,Dongola-Selima,1700,220,,,k31,g4,k32,g4
+AFR,95,32.5,33.5,26,28.75,NNW,Eastern Desert,220,50,,,k411,g1,k31,g1
+AFR,96,0.5,3,14,15,E,Gourma,370,10,,,k1,g2,,
+AFR,97,26,30,-11,-7,NE,Gulf of Katanga,500,320,,,k1,g2,,
+AFR,98,22,29,-31,-25,NNE,Ventersdorp,800,200,,,k421,g1,,
+MAD,1,48,50,-14,-12,NE,Diego,200,60,Middle Permian,,k423,g2,k423,g3
+MAD,2,46,48,-17,-14,NE,Majunga,420,200,Late Permian,,k423,g2,k423,g3
+MAD,3,43,45.5,-25,-17.5,"N,NNW,NNE",Morondava,520,120,Late Carboniferous,,k423,g2,k423,g3
+AUS,1,150,,-10,,E,Goodenough,100,15,Pliocene,Holocene,k22,g3,,
+AUS,2,134,,-6,,NNE,Aru,200,50,Pliocene,,,,,
+AUS,3,140,148,-38,-32,N,Murray,100,50,Early Cenozoic,,k1,g2,k1,g3
+AUS,4,144,155,-25,-11,NW,Queensland,2000,200,Late Cretaceous,,k411,g3,,
+AUS,5a,148,,-38,,E,Gippsland,160,80,Early Cretaceous,,k1,g2,,
+AUS,5b,145,,-40,,NW,Bass Strait,225,100,Early Cretaceous,,k1,g2,,
+AUS,5c,135,145,-44,-35,NW,Otway,1000,200,Early Cretaceous,,k1,g3,,
+AUS,5d,134,,-33.5,,E,Polda,300,100,Middle Jurassic,,k1,g2,,
+AUS,5e,124,135,-35,,E,Ceduna,1200,300,Middle Jurassic,Early Cretaceous,k1,g2,k1,g3
+AUS,5f,125.5,,-34,,E,Bremer,200,100,Middle Jurassic,,k1,g2,,
+AUS,6,117,120,-18,-15,ENE,Roebuck,300,300,Late Permian,Middle Jurassic,k1,g2,k1,g3
+AUS,7a,115,117,-35,-30,N,Perth Basin,500,250,Late Permian,Early Cretaceous,k1,g2,k4,g3
+AUS,7b,105,117,-30,-15,"NE,N,NW",Caernarvon,1200,500,Early Ordovician,Early Cretaceous,k1,g2,k3,g3
+AUS,8,126,130,-17,-10,"NNW,ENE",Bonaparte,700,300,Late Devonian,Middle Jurassic,k1,g2,k1,g3
+AUS,9,121,125,-16,-12,NE,Browse,450,300,Late Devonian,Middle Jurassic,k1,g3,k4,g3
+AUS,10a,122,128,-22,-16,NW,Gregory-Fitzroy,700,0,Early Ordovician,Early Carboniferous,k31,g4,,
+AUS,10b,120,125,-23,-18,NW,Willara-Southwest Kidson,700,165,Early Ordovician,Silurian,k31,g4,,
+AUS,11,137,140,-35,-30,N,Adelaide,500,200,Neoproterozoic,,k1,g2,,
+AUS,12,135,,-18,-12,N,Batten Trough,700,100,,,k1,g2,,
+NZ,1,175.5,177,-40,-38,25,Taupo,200,110,Pliocene,,k411,g1,,
+NAM,1,-124,-120,35,40,NW,Point Arena,800,45,Late Miocene,Pliocene,k32,g1,,
+NAM,2,-119,-118,34.5,34.83,NW,Ridge Basin,80,25,Late Miocene,,k32,g1,,
+NAM,3,-117,-114,32,34,NW,Salton Trough,250,100,Late Miocene,,k32,g1,,
+NAM,4,-118.5,,33.25,,NW,Catalina,70,25,Middle Miocene,,k32,g1,,
+NAM,5,-119,,32.75,,NW,San Nicolas,70,30,middle Miocene,,k32,g1,,
+NAM,6,-108,-100,28,41.5,"N,NNW",Rio Grande,1300,100,Late Oligocene,,k411,g4,k32,g4
+NAM,7,-125,-95,18,49,"N,NNW",Basin and Range,3500,800,Eocene,Miocene,k411,g4,k32,g4
+NAM,8,-125,-111,35,49,N,Numic,1600,800,Eocene,Early Miocene,k411,g4,k32,g4
+NAM,9,-120,-116,48,52,0,Omineca,390,225,Eocene,,k2,g4,k42,g4
+NAM,10,-170,-164,56,57,300,St George,200,28,Middle Eocene,Early Oligocene,k31,g4,,
+NAM,11,-169,-163,63,65,320,Norton,150,75,Middle Eocene,Oligocene,k31,g4,,
+NAM,12,-179,-173,57,62,315,Navarin,250,100,Middle Eocene,Oligocene,k31,g4,,
+NAM,13,-86,-78,76,,"300,280",Jones Sound,240,60,Cretaceous,Early Oligocene,k1,,,
+NAM,14,-87,-77,74,,90,Lancaster Sound,360,60,Cretaceous,Early Oligocene,k1,,,
+NAM,15,-81,-77,72,74,310,Eclipse Trough,180,60,Cretaceous,Early Oligocene,k1,,,
+NAM,16,-83,-74,66,70,320,Foxe and Baffin,420,360,Cretaceous,Early Oligocene,k1,,,
+NAM,17,-70,-30,83,84,45,Lincoln Sea,350,200,Late Cretaceous,Tertiary,k32,g4,,
+NAM,18,-66,-52,68,76,"0,330",Melville Bay,920,70,Cretaceous,Tertiary,k21,,,
+NAM,19,-66,-64,64,66,320,Cumberland Sound,150,54,Cretaceous,Tertiary,k1,,,
+NAM,20,-67,-66,63,64,325,Frobisher,120,50,Cretaceous,Tertiary,k1,,,
+NAM,21,-69,-65,61,,285,Hudson Strait,280,150,Cretaceous,Tertiary,k1,,,
+NAM,22,-26,-15,82,83,305,Wandel Sea,300,60,Late Cretaceous,Tertiary,k32,g4,,
+NAM,23,-63,-60,59,62,"320,0",Saglek,350,100,Early Cretaceous,Late Cretaceous,k22,,,
+NAM,24,-60,-55,55,58,325,Hopedale,500,150,Early Cretaceous,Late Cretaceous,k21,,,
+NAM,25,-98,-88,34,37,25,Mississippi,400,325,Cenomanian,Early Campanian,k1,,,
+NAM,26,-158,-150,71,72,"290,325",Nuvuk,340,30,Late Jurassic,Neocomian,k21,,,
+NAM,27,-150,-144,70,71,290,Dunkum,166,40,Late Jurassic,Neocomian,k21,,,
+NAM,28,-137,-132,68,70,30,Kugmallit,280,140,Late Jurassic,Neocomian,k21,,,
+NAM,29,-127,-125,72,73,55,Big River,100,40,Late Jurassic,Early Cretaceous,k21,,,
+NAM,30,-122,,72,74,"0,330",Central Bank,180,50,Late Jurassic,Early Cretaceous,k21,,,
+NAM,31,-78,-75,32,36,30,Carolina,570,40,Early Jurassic,Middle Jurassic,k21,,,
+NAM,32,-80,-77,25,32,0,Blake Plateau,615,300,Early Jurassic,Middle Jurassic,k21,,,
+NAM,33,-52,-40,48,50,290,Orphan,450,400,Late Triassic,Early Cretaceous,k22,,k21,
+NAM,34,-50,-48,45,47,35,Jeanne d-Arc,350,90,Late Triassic,Neocomian,k22,,k21,
+NAM,35,-53,-51,45,46,65,Whale,220,90,Late Triassic,Neocomian,k22,,k21,
+NAM,36,-62,-52,43,46,"90,70,315",Orpheus,730,200,Late Triassic,Early Jurassic,k21,,,
+NAM,37,-68,-57,40,45,65,Scotian,1200,200,Middle Triassic,Early Jurassic,k21,,,
+NAM,38,-70,-67,40,43,40,Georges Bank,400,180,Late Triassic,Middle Jurassic,k22,,,
+NAM,39,-68,-64,43,45,60,Fundy,400,100,Late Triassic,Middle Jurassic,k22,,,
+NAM,40,-75,-71,36,40,"0,75",Baltimore Canyon,615,100,Late Triassic,Early Jurassic,k22,,,
+NAM,41,-73,,41,42,10,Hartford-Deerfield,175,25,Late Triassic,Early Jurassic,k21,,,
+NAM,42,-73,-72,40,41,25,New York Bight,90,20,Late Triassic,Early Jurassic,k1,g4,k1,g1
+NAM,43,-78,-74,39,41,"60,90",Newark,360,50,Late Triassic,Early Jurassic,k21,,,
+NAM,44,-78,-77,38,39,35,Culpeper,166,20,Late Triassic,Early Jurassic,k21,,,
+NAM,45,-81,-79,36,37,50,Dan River,170,10,Late Triassic,Early Jurassic,k21,,,
+NAM,46,-81,-79,35,37,45,Durham,235,20,Late Triassic,Early Jurassic,k21,,,
+NAM,47,-87,-80,30,34,55,South Georgia,725,250,Late Triassic,Early Jurassic,,,,
+NAM,48,-99,-87,20,33,"10,90",Gulf of Mexico,1200,460,Late Triassic,Early Jurassic,k22,,,
+NAM,49,-17,-5,73,83,20,East Greenland,840,240,Paleozoic,Mesozoic,k1,g3,,
+NAM,50,-57,-52,50,52,35,St Anthony,450,230,,,,,,
+NAM,51,-63,-60,46,48,45,Magdalen,330,90,,,,,,
+NAM,52,-125,-60,75,83,"90,45",Sverdrup,1600,400,Early Carboniferous,Early Permian,k1,g3,,
+NAM,53,-25,-17,70,77,20,East Greenland onshore,780,120,Middle Devonian,,k1,g3,,
+NAM,54,-159,-158,69,71,355,Mead,120,40,Middle Devonian,Early Carboniferous,k411,g3,,
+NAM,55,-155,-150,69,,275,Umiat,200,50,Middle Devonian,Early Carboniferous,k411,g3,,
+NAM,56,-71,,41,42,"0,65",Narragansett,200,55,Carboniferous,,k32,g4,,
+NAM,57,-84,-79,49,52,"55,325",Moose River,630,140,Early Devonian,Early Cretaceous,k1,,,
+NAM,58,-90,-85,57,61,330,Central Hudson,650,360,Early Silurian,,k1,,,
+NAM,59,-84,-75,63,,90,Evans Strait,630,110,Early Silurian,,k1,,,
+NAM,60,-85,-78,64,68,315,Southampton,750,130,Early Silurian,,k1,,,
+NAM,61,-91,-88,35,37,50,Mississippi Valley,360,60,Early Cambrian,Middle Cambrian,k1,,,
+NAM,62,-89,-86,37,,90,Rough Creek,210,50,Early Cambrian,Middle Cambrian,k1,,,
+NAM,63,-85,-77,37,41,50,Rome Trough,650,100,Early Cambrian,Early Ordovician,k1,,,
+NAM,64,-104,-102,30,33,335,Delaware,300,70,Late Proterozoic,Cambrian,k1,,,
+NAM,65,-99,-96,34,35,300,Oklahoma,325,50,Late Proterozoic,Cambrian,k1,,,
+NAM,66,-78,-72,45,46,295,Ottawa-Bonnechere,420,110,Late Proterozoic,Cambrian,k21,g1,,
+NAM,67,-110,,32,,NE,Tucson,400,100,,,k1,g3,,
+NAM,68,-116,,36,,WNW,Aramagosa,200,100,,,k1,g3,,
+NAM,69,-113,-112,36,37.5,NW,Grand Canyon,225,60,,,k1,g3,,
+NAM,70,-110,-107.75,37,,E,Four Corners,350,60,,,k1,g3,,
+NAM,71,-118,-108,46,49,"NW,E",Belt Basin,800,320,,,k1,g3,,
+NAM,72,-117,-110,49,51,NE,Moyie and Dibble Creek,450,60,,,k1,g3,,
+NAM,73,-124,-120,63,68,35,Hornby,450,200,,,k1,,,
+NAM,74,-98,-75,37,42,"NE,NNE",Midcontinent Rift,2000,55,,,k42,g3,,
+NAM,75,-64,,55,,NNW,Seal Lake,200,100,,,k1,g1,,
+NAM,76,-80,,72,,WNW,Baffin Island,300,170,,,k1,g1,,
+NAM,77,-65,,78,,WNW,Thulean Rifts,100,50,,,k1,g1,,
+NAM,78,-110,-105,64,68,N,Bathurst,400,50,,,k31,g1,k32,
+NAM,79,-78,,57.5,,E,Richmond Gulf,170,70,,,k1,g3,,
+NAM,80,-70,,56.5,,E,Cambrien Lake,180,50,,,k1,g3,,
+CAM,1,-72.3,,18.55,,E,Port-au-Prince,40,20,Holocene,,k32,g1,,
+CAM,2,-76,,19.5,,ENE,Cayman Ridge,50,10,Holocene,,k32,g1,,
+CAM,3,-73.75,,20,,NNE,Windward Passage,120,20,Holocene,,k32,g1,,
+CAM,4,-70.75,,18.83,,NE,Maimon,10,0.5,Holocene,,k32,g1,,
+CAM,5,-73.25,,18.5,,E,Clonard,50,10,Quaternary,,k32,g1,,
+CAM,6,-73,,18.5,,E,Mirogoane Lakes,40,7,Quaternary,,k32,g1,,
+CAM,7,-82.45,,7.75,,WNW,Montuosa,40,15,Late Pliocene,,k32,g1,k411,g1
+CAM,8,-81.75,-80.75,7,7.75,NE,Cebaco,165,120,Late Pliocene,,k32,g1,k411,g1
+CAM,9,-73.58,,18.25,,NW,Camp Perrin,20,,Pliocene,,k32,g1,,
+CAM,10,-70.62,,18.53,,ESE,L'Asile,40,10,Pliocene,,k32,g1,,
+CAM,11,-75.5,,18,,ENE,Navassa,150,25,Pliocene,,k32,g1,,
+CAM,12,-76.75,-76.58,15.58,17.92,NNE,Yallahs,25,13,Pliocene,,k32,g1,,
+CAM,13,-78.5,,8.33,,NW,Sambu,110,30,Late Miocene,,k32,g1,,
+CAM,14,-76.5,,19,,E,Cauto,110,50,middle Miocene,,k32,g1,,
+CAM,15,-76.65,,18.8,,E,Low Layton,10,5,Miocene,,k32,g1,,
+CAM,16,-90.6,,14.63,,WNW,Pacaya,20,0,Miocene,,k411,g1,,g2
+CAM,17,-89.82,,13.95,,WNW,Ahuachapan,50,30,Miocene,,k411,g1,,g2
+CAM,18,-88.5,-90,15.5,15.75,ENE,Lake Izabal,125,20,Miocene,,k32,g1,,
+CAM,19,-90,-88,14.75,15.75,NE,Jocotan,200,20,Miocene,,k32,g4,,
+CAM,20,-88,,14.75,15.5,N,Ulua,90,30,Miocene,,k32,g1,,
+CAM,21,-89.75,-89.5,14.17,14.83,N,Ipala,60,25,Miocene,,k32,g4,,
+CAM,22,-90.37,,14.64,,NNE,Guatemala City,30,10,Miocene,,k32,g4,,
+CAM,23,-89.5,-89.75,14.17,14.83,ENE,Middle America Trench,300,100,Miocene,,k32,g1,,
+CAM,24,-88,-84,10,13,NW,Lake Nicaragua,500,65,latest Oligocene,,k411,g1,,g3
+CAM,25,-101,-97,17,26,NNW,Sierra Madre Oriental,700,150,Oligocene,,k411,g2,,
+CAM,26,-115,-100,20,34,"NNW,NNE",Piman,2100,800,Oligocene,,k411,g4,k31,g4
+CAM,27,-63.75,,18,,ENE,Anegada,130,20,Oligocene,Neogene,k32,g1,,
+SAM,1,-73.5,,12.5,,NE,Rancheria,75,40,Holocene,,k32,g1,,
+SAM,2,-67.5,,10.25,,E,Lake Valencia,175,20,Pleistocene,,k32,g1,,
+SAM,3,-78,-77,-10,-8.5,NNW,Cordillera Blanca,170,10,Pliocene,Quaternary,k411,g1,k31,g1
+SAM,4,-73.5,-71,-14.5,-13.25,"E,NW,WNW",Cuzco-Vilcanota,350,12,Pliocene,Quaternary,k411,g1,k3,g1
+SAM,5,-79.5,-77.5,-3.5,-1,NNE,Quito,250,30,Pliocene,Quaternary,k413,g3,k32,g3
+SAM,6,-66.25,,10.42,,E,Santa Lucia,40,10,Pliocene,,k32,g1,,
+SAM,7,-66.25,,10.58,,E,Guarenas,50,20,Pliocene,,k32,g1,,
+SAM,8,-78,,-7.33,,"ESE,NW,NNW",northern Peru,95,11,early Miocene,,k411,g1,k3,g1
+SAM,9,-70,,-27,-18,N,Pampa del Tamarugal,900,225,Miocene,Pliocene,k31,g3,,
+SAM,10,-69,-68,10,10.5,ENE,San Felipe,125,20,Late Cenozoic,,k32,g1,,
+SAM,11,-71.5,-70,10.83,,E,Ancon,150,25,Oligocene,Miocene,k32,g3,,
+SAM,12,-71,-70.5,10.75,12,NW,Urumaco,200,50,Oligocene,Miocene,k32,g3,,
+SAM,13,-70,-68.25,10.75,11.5,E,Falcon,150,100,Oligocene,Miocene,k32,g3,,
+SAM,14,-68.25,-66.75,10.67,,E,Gulf of Triste,180,40,Oligocene,Miocene,k32,g3,,
+SAM,15,-65.83,-64,10.67,,E,Cariaco Trench,130,30,Oligocene,Miocene,k32,g3,,
+SAM,16,-71.5,-70.75,12,12.75,NW,Chichibacoa,100,35,Oligocene,Miocene,k32,g3,,
+SAM,17,-70.83,-69.75,12,12.83,NW,Los Monjes,70,70,Oligocene,Miocene,k32,g3,,
+SAM,18,-70,-69.17,12,12.83,NW,Aruba,130,40,Oligocene,Miocene,k32,g3,,
+SAM,19,-69,-68.33,12,12.42,NW,Curacao,80,40,Oligocene,Miocene,k32,g3,,
+SAM,20,-68.33,-67.83,12,12.42,NW,Las Aves,100,40,Oligocene,Miocene,k32,g3,,
+SAM,21,-66.42,-67.83,12.58,,ESE,Los Roques N,160,20,Oligocene,Miocene,k32,g3,,
+SAM,22,-67.67,-67,11.83,12.42,NW,Los Roques S,100,30,Oligocene,Miocene,k32,g3,,
+SAM,23,-69,-65,11,12,E,Bonaire,350,115,Oligocene,Miocene,k32,g3,,
+SAM,24,-65.75,-64.5,10.75,11.33,NNW,La Orchila,200,50,Oligocene,Miocene,k411,g1,,
+SAM,25,-79.5,-77,-14.5,-10,NW,Lima,550,70,Oligocene,,k411,g1,,
+SAM,26,-80,-78,-11.5,-7,NW,Salaverry,550,100,Oligocene,,k411,g1,,
+SAM,27,-71.25,-72.5,-18.5,-17.25,NW,Arequipa,150,50,Oligocene,,k411,g1,,
+SAM,28,-71.5,-70.5,-19.5,-18.17,N,Arica,130,50,Oligocene,,k411,g1,,
+SAM,29,-70.75,-70.25,-20.75,-19.5,N,Iquique,120,20,Oligocene,,k411,g1,,
+SAM,30,-61.5,,10.25,,E,Southern Trinidad,50,25,Oligocene,,k32,g1,k31,g3
+SAM,31,-61.5,,10.5,,E,Caroni,50,20,Oligocene,,k32,g1,k31,g3
+SAM,32,-73,,-43,-42,N,Ayacara,160,60,Oligocene,Neogene,k32,g1,,
+SAM,33,-81,,-3,,"E,ENE",Progreso,160,150,middle Eocene,,k32,g1,,
+SAM,34,-81,-80,-7,-4.5,"N,NNW",Sechura-Talara,510,170,Paleocene,,k411,g3,,
+SAM,35,-46,-40,-2.5,-1,WNW,Barreirinhas,700,170,middle Albian,,k32,g3,,
+SAM,36,-67.5,-61,-27,-20,"NNE,ENE,NW,N",Oran,800,150,Early Cretaceous,,k1,g2,,
+SAM,37,-65.5,-64,-30,-28,N,Salinas Grandes,250,100,Early Cretaceous,,k1,g2,,
+SAM,38,-39.25,-38,-17,-15,NNE,Jequitinhonha,200,50,Late Jurassic,,k1,g2,,
+SAM,39,-54,-48,-34,-30,NE,Pelotas,800,200,Early Cretaceous,,k1,g2,,
+SAM,40,-40,-38.5,-20,-17,"NNE,ENE",Espirito Santo,350,100,Early Cretaceous,,k1,g2,,
+SAM,41,-56,,-34,,ENE,Canelones,500,60,Late Jurassic,Early Cretaceous,k1,g2,k33,g1
+SAM,42,-37.25,-35,-11.5,-8.5,NE,Sergipe and Alagoas,350,50,Late Jurassic,,k1,g2,,
+SAM,43,-41,-40,-23,21,NE,Campos,250,140,Late Jurassic,,k1,g2,,
+SAM,44,-48,-43,-27,-23.5,NE,Santos,600,130,Late Jurassic,,k1,g2,,
+SAM,45,-39,-37,-13,-8,"N,ENE",Reconcavo-Tucano-Jatoba,650,100,Late Jurassic,,k1,g2,,
+SAM,46,-61,-54,-38,-34,NW,Salado,880,200,Late Jurassic,,k1,g2,k33,g1
+SAM,47,-65,-63.5,-35.5,-33,N,Laboulaye,300,150,Late Jurassic,,k1,g2,,
+SAM,48,-63.5,,-37,-35.5,NNW,Macachin,250,75,Late Jurassic,,k1,g2,,
+SAM,49,-64,-56,-38,-40,WNW,Colorado,700,170,Late Jurassic,,k1,g2,,
+SAM,50,-63.5,,-42.5,,NNW,Valdez,200,100,Middle Jurassic,Late Jurassic,k33,g1,,
+SAM,51,-62,,-44,-41,N,Rawson,300,80,Middle Jurassic,,k33,g1,,
+SAM,52,-62,-58,-50,-47,"N,NE,NW",Malvinas Norte,400,300,Middle Jurassic,,k32,g4,,
+SAM,53,-60,-45,-52,-48,NW,Falkland Spur,100,350,Middle Jurassic,,k32,g4,,
+SAM,54,-66.75,-61,8,9.5,NE,Espino,220,100,Bathonian,,k1,g1,k1,g2
+SAM,55,-59,-57,4,6,NE,Tacutu third arm,270,40,Toarcian,Pliensbachian,k1,g2,,
+SAM,56,-61,-58.5,2.5,4,ENE,Tacutu third arm,330,40,Toarcian,Pliensbachian,k1,g2,,
+SAM,57,-71,-66,-47,-45,"E,ENE,NE",San Jorge,390,130,Early Jurassic,,k1,g2,,
+SAM,58,-73,,-38,-34.5,"N,NNW",Arauco,400,110,Late Triassic,Early Jurassic,k411,g3,,
+SAM,59,-72,-66,-40,-36,NW,Neuquen,600,150,Triassic,Jurassic,k411,g3,,
+SAM,60,-72,-68,-53,-48,"N,NNW",Magallanes,600,70,Late Triassic,,k411,g3,,
+SAM,61,-71.5,,-44,-39,N,Nirihuau,300,100,Middle Triassic,,k411,g3,,
+SAM,62,-70,,-29,-24,"N,NW",Ternera,500,60,Early Triassic,,k411,g3,,
+SAM,63,-70,,-30.5,-28,NNW,Alto del Carmen,300,100,Early Triassic,,k411,g3,,
+SAM,64,-70,-66,-50,-46,"330,345",Cuyo,550,30,Early Triassic,,k411,g3,,
+SAM,65,-71,-68,-36,-29,NNW,Deseado,750,50,Early Triassic,,k411,g3,,
+SAM,66,-76,-62,-53.5,-50,"NW,NE",Malvinas,600,300,Late Triassic,Late Jurassic,k411,g3,,
+SAM,67,-62,-50,-5,0,"E,ENE",Amazon,1000,110,Late Cambrian,,k421,g1,k421,g2
+SAM,68,-61.5,-59,4.25,6.75,NW,Roraima,330,110,,,k1,g1,k1,g2
+ANT,1,-63,-56,-66.5,-63,NE,Larsen,300,50,Pliocene,,k411,g3,,
+ANT,2,-56,,-63,,NE,Prince Gustav,100,50,Pliocene,,k411,g3,,
+ANT,3,-60,-52.5,-64,-62,NE,Bransfield,400,50,Pliocene,,k411,g3,,
+ANT,4,-75,-70,-73,-70,NE,King George VI,500,75,Late Cretaceous,Cenozoic,k411,g3,,
+ANT,5a,-65,-30,-85,-75,NE,Crary-Thiel,1100,150,Cenozoic,,k31,,,
+ANT,5b,-120,-75,-82,-75,ENE,Byrd-Bentley subglacial,1100,400,middle Cretaceous,Neogene,k31,g4,,
+ANT,5c,-165,-160,-85,-70,"N,NE",Ross Sea,2000,1000,middle Cretaceous,Neogene,k31,g4,,
+ANT,6,117,,-73,,NNW,Aurora,350,60,,,k1,,,
+ANT,7,100,,-69.5,-66.5,NNW,Denman,270,75,Cretaceous,,k1,,,
+ANT,8,35,50,-77,-69,"NW,N",Shirase,1000,150,Early Cretaceous,,k1,g2,k1,g3
+ANT,9,135,,-90,,"N,NW",Polar,1800,100,Early Cretaceous,,k1,g2,k1,g3
+ANT,10,30,,-74,-68,N,Belgica Fjella,650,250,Middle Jurassic,Earliest Cretaceous,k1,,,
+ANT,11,-35,-20,-75,-72,NE,Weddell,600,50,Middle Jurassic,,k22,g2,,
+ANT,12,0,,-75,-70,"N,NW",Pencksokket,500,175,Middle Jurassic,,k1,g2,,
+ANT,13,125,153,-80,-67.5,"N,NE",Wilkes Land,1500,1000,Early Jurassic,Middle Jurassic,k1,g3,k1,g4
+ANT,14,60,75,-85,-65,"N,NE,NW",Lambert Rift,2000,200,Late Permian,Early Cretaceous,k1,g2,k1,g3
+ANT,15,60,,-68,-65,N,Stefansson Bay,350,75,Permian,,k411,g3,k32,g3
+ANT,16,57.5,,-67,-65,N,Magnet Bay,200,60,Permian,,k411,g3,k32,g3
