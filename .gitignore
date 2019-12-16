@@ -85,3 +85,6 @@ dev/.ipynb_checkpoints/unreconstruct_PALEOMAP_DEMs-checkpoint.ipynb
 dev/pt_validation.pyc
 
 dev/images
+gmt.history
+tmp.gmt
+tmp.gmt.gplates.xml
