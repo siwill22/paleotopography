@@ -88,3 +88,7 @@ dev/images
 gmt.history
 tmp.gmt
 tmp.gmt.gplates.xml
+dev/_tmp.xyz
+
+*.mipmaps.*
+*.cache
