@@ -92,3 +92,4 @@ dev/_tmp.xyz
 
 *.mipmaps.*
 *.cache
+*.pyc
