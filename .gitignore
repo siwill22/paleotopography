@@ -97,3 +97,6 @@ dev/.ipynb_checkpoints/ScoteseMerdoMashup-checkpoint.ipynb
 dev/.ipynb_checkpoints/tweened-paleotopography-dev-checkpoint.ipynb
 
 dev/grids/*
+dev/landmasks/*
+dev/tmp*
+dev/landmasks.zip
