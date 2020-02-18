@@ -95,3 +95,5 @@ dev/_tmp.xyz
 *.pyc
 dev/.ipynb_checkpoints/ScoteseMerdoMashup-checkpoint.ipynb
 dev/.ipynb_checkpoints/tweened-paleotopography-dev-checkpoint.ipynb
+
+dev/grids/*
