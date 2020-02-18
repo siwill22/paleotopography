@@ -93,3 +93,5 @@ dev/_tmp.xyz
 *.mipmaps.*
 *.cache
 *.pyc
+dev/.ipynb_checkpoints/ScoteseMerdoMashup-checkpoint.ipynb
+dev/.ipynb_checkpoints/tweened-paleotopography-dev-checkpoint.ipynb
