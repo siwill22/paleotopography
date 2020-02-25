@@ -100,3 +100,4 @@ dev/grids/*
 dev/landmasks/*
 dev/tmp*
 dev/landmasks.zip
+dev/.ipynb_checkpoints/extract_masks-checkpoint.ipynb
