@@ -101,3 +101,7 @@ dev/landmasks/*
 dev/tmp*
 dev/landmasks.zip
 dev/.ipynb_checkpoints/extract_masks-checkpoint.ipynb
+dev/.ipynb_checkpoints/raster-reconstruct_nb-checkpoint.ipynb
+dev/.ipynb_checkpoints/ScoteseDrainage-checkpoint.ipynb
+dev/.ipynb_checkpoints/streamlines-checkpoint.py
+dev/.ipynb_checkpoints/watershed-checkpoint.ipynb
