@@ -1,7 +1,7 @@
 import pygplates
-from raster_reconstruction_classes import *
-import points_spatial_tree
-import points_in_polygons
+from gprm import PointDistributionOnSphere
+from gprm.utils.raster import *
+from gprm.utils import points_spatial_tree, points_in_polygons
 import tectonic_subsidence as ts
 
 
