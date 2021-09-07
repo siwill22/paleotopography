@@ -1,4 +1,4 @@
-Onset subduction (Ma)	Onset deformation (Ma)	Termination deformation (Ma)	Subduction Duration (Myr)	Deformation duration (Myr)	Type (accretion acc; collision, coll)
+Name	Onset subduction (Ma)	Onset deformation (Ma)	Termination deformation (Ma)	Subduction Duration (Myr)	Deformation duration (Myr)	Type (accretion acc; collision, coll)
 Venezuelan	100	34	0	66	34	acc
 Verkhoyansk-Kolyma	200	160	110	40	50	acc
 Japan	300	250	0	50	250	acc
